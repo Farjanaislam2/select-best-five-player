@@ -108,3 +108,34 @@ document
 		const finalExpenses = playerExpense + managerCostValue + coachCostValue;
 		finalTotalCost.innerText = finalExpenses;
 	});
+const btnDisable1 = document.querySelector('#btn1');
+btnDisable1.addEventListener(
+	'click',
+	() => (btnDisable1.style.backgroundColor = '#808080'),
+);
+const btnDisable2 = document.querySelector('#btn2');
+btnDisable2.addEventListener(
+	'click',
+	() => (btnDisable2.style.backgroundColor = '#808080'),
+);
+const btnDisable3 = document.querySelector('#btn3');
+btnDisable3.addEventListener(
+	'click',
+	() => (btnDisable3.style.backgroundColor = '#808080'),
+);
+const btnDisable4 = document.querySelector('#btn4');
+btnDisable4.addEventListener(
+	'click',
+	() => (btnDisable4.style.backgroundColor = '#808080'),
+);
+const btnDisable5 = document.querySelector('#btn5');
+btnDisable5.addEventListener(
+	'click',
+	() => (btnDisable5.style.backgroundColor = '#808080'),
+);
+const btnDisable6 = document.querySelector('#btn6');
+btnDisable6.addEventListener(
+	'click',
+	() => (btnDisable6.style.backgroundColor = '#808080'),
+);
+
